@@ -1,0 +1,19 @@
+{
+  "name": "accountservice",
+  "version": "1.0.0",
+  "description": "biolerplate restapi with Postgresql database that provides account table / Login functionality...",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --experimental-strip-types --experimental-transform-types index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lbailis",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "express": "^5.0.1"
+  }
+}
